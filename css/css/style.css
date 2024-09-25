@@ -1,0 +1,51 @@
+body{
+    background-color: #0f1931;
+}
+.underline{
+    border-bottom: 1px solid white !important;
+    width: 30px;
+}
+.hove:hover .underline{
+    width: 80px;
+    transition: all 0.9s;
+}
+.m:hover{
+    color: white!important;
+ }
+ .cu:hover{
+    color: orange !important;
+    cursor: pointer;
+    transition: all 1s ease-out;
+ }
+ .fs{
+    font-size: 20px;
+ }
+ .border{
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: aquamarine;
+    background-color: rgb(23,50,71);
+ }
+ .bor:hover{
+    background-color: rgba(30,47,65,0.52);
+    transition: all 1s;
+    cursor: pointer;
+    color: aquamarine;
+
+ }
+ .posi{
+   position: fixed;
+ }
+ @media(max-width:992px) {
+   .posi{
+      background-color: rgb(15, 23, 42);
+      width: 100%;
+      top: -90px;
+   }
+   .hover{
+      margin-top: 260px;
+   }
+   
+ }
