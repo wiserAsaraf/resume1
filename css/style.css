@@ -1,19 +1,25 @@
+@font-face{
+   font-family: "asaraf";
+   src: url("../asste/font/Lato/Lato-Regular.ttf");
+}
+ 
 body{
-    background-color: #0f1931;
+   background-color: #0f1931;
+   font-family: "asaraf";
 }
 .underline{
     border-bottom: 1px solid white !important;
     width: 30px;
 }
-.hove:hover .underline{
+ .hove:hover .underline{
     width: 80px;
-    transition: all 0.9s;
+    transition: all 1s;
 }
 .m:hover{
     color: white!important;
  }
  .cu:hover{
-    color: orange !important;
+    color: red !important;
     cursor: pointer;
     transition: all 1s ease-out;
  }
@@ -30,7 +36,7 @@ body{
  }
  .bor:hover{
     background-color: rgba(30,47,65,0.52);
-    transition: all 1s;
+    transition: all 1s !important;
     cursor: pointer;
     color: aquamarine;
 
@@ -38,6 +44,7 @@ body{
  .posi{
    position: fixed;
  }
+
  @media(max-width:992px) {
    .posi{
       background-color: rgb(15, 23, 42);
@@ -45,7 +52,10 @@ body{
       top: -90px;
    }
    .hover{
-      margin-top: 260px;
+      margin-top: 270px;
+   }
+   .top{
+      margin-top: -190px;
    }
    
  }
